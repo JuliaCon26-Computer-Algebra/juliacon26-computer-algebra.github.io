@@ -120,8 +120,7 @@ a:focus {
 }
 
 .brand-subtitle {
-  /* Make the main title larger and more prominent */
-  font-size: 1.63rem; /* slightly larger title */
+  font-size: 1.63rem;
   line-height: 1.25;
   font-weight: 600;
   color: var(--text);
@@ -168,6 +167,15 @@ a:focus {
 }
 
 @media (max-width: 720px) {
+
+  .brand-subtitle {
+    font-size: 0.8rem;
+  }
+
+  .brand-subtitle {
+    font-size: 1.3rem;
+  }
+  
   .site-header-inner {
     flex-direction: column;
     align-items: flex-start;
